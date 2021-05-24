@@ -1,14 +1,9 @@
-"""
-Simple script for take off and control with arrow keys
-"""
-
 
 import time
 from dronekit import connect, VehicleMode, LocationGlobalRelative, Command, LocationGlobal
 from pymavlink import mavutil
 
-#- Importing Tkinter: sudo apt-get install python-tk
-
+#- Importing Tkinter: pip3 install tk
 import tkinter as tk
 
 
